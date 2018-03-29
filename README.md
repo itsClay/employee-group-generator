@@ -20,6 +20,9 @@ Build a full-stack web app that allows a user to randomly generate groups, for t
 
 ### Navigate to root dir
 start a postgres server locally for setup [link to PSQL site](https://www.postgresql.org/download/macosx/)
+
 `rails db:create`
+
 `rails db:setup` - will make migrations and seed with a few items
+
 `rails s` - run the server, defaults to localhost:3000

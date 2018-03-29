@@ -13,7 +13,10 @@
 # I wasn't 100% sure if we wanted Employee to be a completely seperate 
 # entity from User or if we wanted to inherit from User. This would make
 # things a little more difficult since a User making another User would 
-# require Auth.
+# require Auth. 
+
+# Decided to leave them as seperate for now to easily be 
+# able to create and destroy.
 
 class Employee < ApplicationRecord
   validates :first_name, :last_name, presence: true
